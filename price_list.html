@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Роллы</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Роллы и суши "Токио"</h1>
+    <table>
+        <caption>Прайс-лист</caption>
+        <tr>
+            <th>Название</th>
+            <th>Состав</th>
+            <th>Вес(г.)</th>
+            <th>Цена</th>
+            <th>Фото</th>
+        </tr>
+        <tr>
+            <td>Калифорния</td>
+            <td>Крабовые палочки, икра тобико, авокадо,<br> огурцы, сливочный сыр, рис, нори</td>
+            <td>350г.</td>
+            <td>400р.</td>
+            <td><img width="200px" src="https://www.edimdoma.ru/data/recipes/0005/0070/50070-ed4_wide.jpg?1628833090" alt=""></td>
+        </tr>
+        <tr>
+            <td>Филадельфия</td>
+            <td>Семга, огурцы, авокадо, сливочный сыр,<br> рис, нори, соевый соус, васаби</td>
+            <td>400г.</td>
+            <td>450р.</td>
+            <td><img width="200px" src="https://www.gastronom.ru/binfiles/images/20151005/bf605872.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Темпура</td>
+            <td>Тунец, панировка, огурцы, авокадо,<br> сливочный сыр, рис, нори, соевый соус, васаби</td>
+            <td>300г.</td>
+            <td>300р.</td>
+            <td><img width="200px" src="https://sinyora.ru/images/img_products/full_________-800x550.jpg" alt=""></td>
+        </tr>
+    </table>
+    <h4>Попробуйте также закуски:</h4>
+        <select id="present">
+            <option value="mid">Мидии в соусе</option>
+            <option value="nag">Наггетсы</option>
+            <option value="luk">Луковые кольца</option>
+        </select>
+        <h3>Для оформления заказа необходимо заполнить свои данные в бланке ниже:</h3>
+        <form action="">
+            <fieldset>
+                <legend>Данные</legend>
+                <input type="text" placeholder="ФИО" required> <br><br>
+                <input type="text" placeholder="Ваш адрес" required> <br><br>
+                <input type="text" placeholder="телефон" required> <br><br>
+                <input type="button" name="send" value="отправть">
+                <input type="reset" name="res" value="отмена"> <br><br>
+            </fieldset>
+</body>
+</html>
